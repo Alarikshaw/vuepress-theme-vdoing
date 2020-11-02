@@ -173,7 +173,7 @@ module.exports = {
         choosen: 'gitalk',
         options: {
           clientID: '2ae2641a8f97a43d8677',
-          clientSecret: 'a88e4e63cdf678b7f08422aceb4a226639fe6c6c ',
+          clientSecret: 'a88e4e63cdf678b7f08422aceb4a226639fe6c6c',
           repo: 'blog-gitalk-comment', // GitHub 仓库
           owner: 'Alarikshaw', // GitHub仓库所有者
           admin: ['Alarikshaw'], // 对仓库有写权限的人
