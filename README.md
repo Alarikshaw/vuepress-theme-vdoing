@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/03e0cb19-ccad-4e60-83d9-57a53a49e1c8/deploy-status)](https://app.netlify.com/sites/theme-vdoing-blog/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/08384eda-3ecf-4f26-a4b5-a70575d81542/deploy-status)](https://app.netlify.com/sites/theme-vdoing-blog/deploys)
 
 这是一个 VuePress 搭建的文档
 
