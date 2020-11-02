@@ -1,3 +1,7 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/03e0cb19-ccad-4e60-83d9-57a53a49e1c8/deploy-status)](https://app.netlify.com/sites/theme-vdoing-blog/deploys)
+
+这是一个 VuePress 搭建的文档
+
 ## 介绍
 1. 这个主题的初衷是打造一个好用的、面向程序员的`知识管理工具`
 2. 轻松构建一个`结构化`的知识库，让你的知识海洋像一本本书一样清晰易读。
