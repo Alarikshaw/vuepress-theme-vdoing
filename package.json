@@ -4,9 +4,10 @@
   "scripts": {
     "start": "vuepress dev docs",
     "build": "vuepress build docs",
-    "editFm": "node utils/editFrontmatter.js",
-    "baiduPush": "node utils/baiduPush.js https://xugaoyi.com && bash baiduPush.sh",
-    "publish": "cd theme-vdoing && npm publish && cd ../ && npm update vuepress-theme-vdoing"
+    "tx:selease": "yarn build && scp -r docs/.vuepress/dist/* root@146.56.207.141:/www/wwwroot/",
+    "tx:deploy": "yarn build && scp -r docs/.vuepress/dist/* root@146.56.207.141:/www/wwwroot/",
+    "ali:release": "scp -r docs/.vuepress/dist/* root@123.56.175.125:/www/wwwroot/",
+    "ali:deploy": "yarn build && scp -r docs/.vuepress/dist/* root@123.56.175.125:/www/wwwroot/"
   },
   "license": "MIT",
   "devDependencies": {
