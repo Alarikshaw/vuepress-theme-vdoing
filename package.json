@@ -4,7 +4,7 @@
   "scripts": {
     "start": "vuepress dev docs",
     "build": "vuepress build docs",
-    "tx:selease": "yarn build && scp -r docs/.vuepress/dist/* root@146.56.207.141:/www/wwwroot/",
+    "tx:selease": "scp -r docs/.vuepress/dist/* root@146.56.207.141:/www/wwwroot/",
     "tx:deploy": "yarn build && scp -r docs/.vuepress/dist/* root@146.56.207.141:/www/wwwroot/",
     "ali:release": "scp -r docs/.vuepress/dist/* root@123.56.175.125:/www/wwwroot/",
     "ali:deploy": "yarn build && scp -r docs/.vuepress/dist/* root@123.56.175.125:/www/wwwroot/"
