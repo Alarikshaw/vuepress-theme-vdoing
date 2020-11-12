@@ -47,7 +47,10 @@ title: ${file.name}
 date: ${dateStr}
 permalink: ${getPermalink()}${file.filePath.indexOf('_posts') > -1 ? '\r\nsidebar: auto' : ''}${cateStr}${tagsStr}
 ---`;
-
+      const author = {
+        name: 'Alarikshaw',
+        link: 'https://github.com/Alarikshaw'
+      }
       fs.writeFileSync(file.filePath, `${fmData}\r\n${fileMatterObj.content}`); // 写入
       log(chalk.blue('tip ') + chalk.green(`write frontmatter(写入frontmatter)：${file.filePath} `))
 
@@ -60,7 +63,6 @@ permalink: ${getPermalink()}${file.filePath.indexOf('_posts') > -1 ? '\r\nsideba
         matterData.title = file.name;
         mark = true;
       }
-
       if (!matterData.hasOwnProperty('date')) { // 日期
         const stat = fs.statSync(file.filePath);
         matterData.date = dateFormat(getBirthtime(stat));
