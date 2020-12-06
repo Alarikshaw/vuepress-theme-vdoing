@@ -16,6 +16,9 @@ module.exports = [
         {text: '《Vue3》笔记', link: '/note/vue3/'},
         {text: '《TypeScript 从零实现 axios》', link: '/note/typescript-axios/'},
         {text: '小程序笔记', link: '/note/wx-miniprogram/'},
+      ]},
+      {text: '学习详解', items:[
+        {text: '《现代JavaScript》教程', link: '/note/javascript/break/'},
       ]}
     ]
   },
