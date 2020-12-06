@@ -18,7 +18,7 @@ module.exports = [
         {text: '小程序笔记', link: '/note/wx-miniprogram/'},
       ]},
       {text: '学习详解', items:[
-        {text: '《现代JavaScript》教程', link: '/note/javascript/break/'},
+        {text: '《现代JavaScript》教程', link: '/note/break/'},
       ]}
     ]
   },
