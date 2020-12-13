@@ -171,23 +171,10 @@ module.exports = {
       // },
       {
         choosen: 'gitalk',
-        options: {
-          clientID: '46ece93ce961e42d5d84', // 腾讯
-          clientSecret: '72dc2d30bb11b3bdc74d806a8eee61a3d132d7fe', // 腾讯
-          repo: 'blog-gitalk-site', // 腾讯 GitHub 仓库
-          owner: 'Alarikshaw', // GitHub仓库所有者
-          admin: ['Alarikshaw'], // 对仓库有写权限的人
-          // distractionFreeMode: true,
-          pagerDirection: 'last', // 'first'正序 | 'last'倒序
-          id: "<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>", //  页面的唯一标识,长度不能超过50
-          title: "「评论」<%- frontmatter.title %>", // GitHub issue 的标题
-          labels: ["Gitalk", "Comment"], // GitHub issue 的标签
-          body: "页面：<%- window.location.origin + (frontmatter.to.path || window.location.pathname) %>" // GitHub issue 的内容
-        }
         // options: {
-        //   clientID: 'f68de4a52511e04eae99', // 阿里
-        //   clientSecret: 'b2cf7d5cacf8bd622d789349049f19635ec95d4a', // 阿里
-        //   repo: 'blog-gitalk-cn', // 阿里 GitHub仓库
+        //   clientID: '46ece93ce961e42d5d84', // 腾讯
+        //   clientSecret: '72dc2d30bb11b3bdc74d806a8eee61a3d132d7fe', // 腾讯
+        //   repo: 'blog-gitalk-site', // 腾讯 GitHub 仓库
         //   owner: 'Alarikshaw', // GitHub仓库所有者
         //   admin: ['Alarikshaw'], // 对仓库有写权限的人
         //   // distractionFreeMode: true,
@@ -197,6 +184,19 @@ module.exports = {
         //   labels: ["Gitalk", "Comment"], // GitHub issue 的标签
         //   body: "页面：<%- window.location.origin + (frontmatter.to.path || window.location.pathname) %>" // GitHub issue 的内容
         // }
+        options: {
+          clientID: 'f68de4a52511e04eae99', // 阿里
+          clientSecret: 'b2cf7d5cacf8bd622d789349049f19635ec95d4a', // 阿里
+          repo: 'blog-gitalk-cn', // 阿里 GitHub仓库
+          owner: 'Alarikshaw', // GitHub仓库所有者
+          admin: ['Alarikshaw'], // 对仓库有写权限的人
+          // distractionFreeMode: true,
+          pagerDirection: 'last', // 'first'正序 | 'last'倒序
+          id: "<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>", //  页面的唯一标识,长度不能超过50
+          title: "「评论」<%- frontmatter.title %>", // GitHub issue 的标题
+          labels: ["Gitalk", "Comment"], // GitHub issue 的标签
+          body: "页面：<%- window.location.origin + (frontmatter.to.path || window.location.pathname) %>" // GitHub issue 的内容
+        }
       }
     ],
     [
