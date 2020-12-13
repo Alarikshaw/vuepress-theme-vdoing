@@ -8,7 +8,7 @@
 3. 博客功能提供一种知识的`碎片化`形态，并支持个性化博客配置。
 4. `简洁高效`，以 Markdown 为中心的项目结构。内置自动化工具，以更少的配置完成更多的事。配合多维索引快速定位每个知识点。
 
-[**更新日志**](https://github.com/xugaoyi/vuepress-theme-vdoing/releases)
+[**更新日志**](https://github.com/alarikshaw/vuepress-theme-vdoing/releases)
 
 ## 这个主题可以做什么？
 * 案例1：[知识库兼博客站](http://www.alarikshaw.cn/)
