@@ -21,6 +21,7 @@ module.exports = [
       ]},
       {text: '学习详解', items:[
         {text: '《现代JavaScript》教程', link: '/note/break/'},
+        {text: '《TypeScript》教程', link: '/note/typescript/'},
       ]}
     ]
   },
