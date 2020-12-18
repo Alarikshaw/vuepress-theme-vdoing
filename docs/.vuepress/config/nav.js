@@ -26,6 +26,15 @@ module.exports = [
     ]
   },
   {
+    text: 'Node',
+    link: '/node/',
+    items: [
+      {text: 'node 框架', items: [
+          {text: 'Nest', link: '/node/nest/'}
+      ]},
+    ],
+  },
+  {
     text: '页面', 
     link: '/ui/',
     items: [
