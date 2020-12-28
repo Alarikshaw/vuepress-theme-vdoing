@@ -9,8 +9,6 @@ module.exports = [
         {text: 'Vue', link: '/pages/802a1ca6f7b71c59/'},
       ]},
       {text: '学习笔记', items:[
-        {text: '《JavaScript教程》笔记', link: '/note/javascript/'},
-        {text: '《JavaScript高级程序设计》笔记', link: '/note/js/'},
         {text: '《ES6 教程》笔记', link: '/note/es6/'},
         {text: '《Vue》笔记', link: '/note/vue/'},
         {text: '《Vue3》笔记', link: '/note/vue3/'},
@@ -30,17 +28,10 @@ module.exports = [
     link: '/node/',
     items: [
       {text: 'node 框架', items: [
-          {text: 'Nest', link: '/node/nest/'}
+          {text: 'Nest', link: '/node/nest/'},
+          {text: 'NestBlogApi', link: '/node/nestBlogApi/'}
       ]},
     ],
-  },
-  {
-    text: '页面', 
-    link: '/ui/',
-    items: [
-      {text: 'HTML', link: '/pages/8309a5b876fc95e3/'},
-      {text: 'CSS', link: '/pages/0a83b083bdf257cb/'},
-    ]
   },
   {
     text: '技术',
