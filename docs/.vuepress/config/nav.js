@@ -9,6 +9,10 @@ module.exports = [
         {text: 'Vue', link: '/pages/802a1ca6f7b71c59/'},
       ]},
       {text: '学习笔记', items:[
+<<<<<<< HEAD
+=======
+        {text: '《ES6 教程》笔记', link: '/note/es6/'},
+>>>>>>> e13a95e275732d8cb962e2853f9c5fe90a8288d9
         {text: '《Vue》笔记', link: '/note/vue/'},
         {text: '《Vue3》笔记', link: '/note/vue3/'},
         {text: '《TypeScript 从零实现 axios》', link: '/note/typescript-axios/'},
@@ -27,7 +31,8 @@ module.exports = [
     link: '/node/',
     items: [
       {text: 'node 框架', items: [
-          {text: 'Nest', link: '/node/nest/'}
+          {text: 'Nest', link: '/node/nest/'},
+          {text: 'NestBlogApi', link: '/node/nestBlogApi/'}
       ]},
     ],
   },
