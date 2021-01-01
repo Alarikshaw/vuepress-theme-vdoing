@@ -9,9 +9,6 @@ module.exports = [
         {text: 'Vue', link: '/pages/802a1ca6f7b71c59/'},
       ]},
       {text: '学习笔记', items:[
-        {text: '《JavaScript教程》笔记', link: '/note/javascript/'},
-        {text: '《JavaScript高级程序设计》笔记', link: '/note/js/'},
-        {text: '《ES6 教程》笔记', link: '/note/es6/'},
         {text: '《Vue》笔记', link: '/note/vue/'},
         {text: '《Vue3》笔记', link: '/note/vue3/'},
         {text: '《TypeScript 从零实现 axios》', link: '/note/typescript-axios/'},
@@ -35,14 +32,6 @@ module.exports = [
     ],
   },
   {
-    text: '页面', 
-    link: '/ui/',
-    items: [
-      {text: 'HTML', link: '/pages/8309a5b876fc95e3/'},
-      {text: 'CSS', link: '/pages/0a83b083bdf257cb/'},
-    ]
-  },
-  {
     text: '技术',
     link: '/technology/',
     items: [
@@ -52,17 +41,6 @@ module.exports = [
       {text: '博客搭建', link: '/pages/41f87d890d0a02af/'},
     ]
   },
-  {
-    text: '更多', 
-    link: '/more/',
-    items: [
-      {text: '学习', link: '/pages/f2a556/'},
-      {text: '面试', link: '/pages/aea6571b7a8bae86/'},
-      {text: '心情杂货', link: '/pages/2d615df9a36a98ed/'},
-      {text: '友情链接', link: '/friends/'},
-    ]
-  },
-  {text: '关于', link: '/about/'},
   {
     text: '收藏',
     link: '/pages/beb6c0bd8a66cea6/',
