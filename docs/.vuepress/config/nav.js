@@ -15,6 +15,7 @@ module.exports = [
         {text: '《Webpack》笔记', link: '/note/Webpack/'},
         {text: '《Vue-Cli》笔记', link: '/note/vuecli/'},
         {text: '小程序笔记', link: '/note/wx-miniprogram/'},
+        {text: 'Socket.io', link: '/note/socketio/'},
       ]},
       {text: '学习详解', items:[
         {text: '《现代JavaScript》教程', link: '/note/break/'},
