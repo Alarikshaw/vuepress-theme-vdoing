@@ -14,8 +14,8 @@ features: # 可选的
     link: /web/ # 可选
     imgUrl: /img/web.png # 可选
   - title: 页面
-    details: html(5)/css(3)，前端页面相关技术
-    link: /ui/
+    details: Node、Deno相关技术
+    link: /node/
     imgUrl: /img/ui.png
   - title: 技术
     details: 技术文档、教程、技巧、总结等文章
