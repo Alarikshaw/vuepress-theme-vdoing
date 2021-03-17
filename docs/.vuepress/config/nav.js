@@ -24,6 +24,22 @@ module.exports = [
     ]
   },
   {
+    text: '面试',
+    link: '/interview/',
+    items: [
+      {text: '面试题', items: [
+          {text: 'HTMLCSS', link: '/interview/html/'},
+          {text: 'JavaScript', link: '/interview/js/'},
+          {text: 'Vue', link: '/interview/vue/'},
+          {text: 'TypeScript', link: '/interview/ts/'},
+          {text: 'React', link: '/interview/react/'},
+          {text: 'Node', link: '/interview/node/'},
+          {text: '浏览器', link: '/interview/browser/'},
+          {text: '前端相关', link: '/interview/frontend/'},
+      ]},
+    ],
+  },
+  {
     text: 'Node',
     link: '/node/',
     items: [
