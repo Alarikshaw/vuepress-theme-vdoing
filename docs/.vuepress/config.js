@@ -90,7 +90,7 @@ module.exports = {
     },
     footer: { // 页脚信息
       createYear: 2019, // 博客创建年份
-      copyrightInfo: 'Alarikshaw | <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
+      copyrightInfo: 'Alarikshaw | <a href="https://github.com/Alarikshaw/vuepress-theme-vdoing" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
     }
   },
   plugins: [ // 插件
@@ -185,8 +185,8 @@ module.exports = {
         //   body: "页面：<%- window.location.origin + (frontmatter.to.path || window.location.pathname) %>" // GitHub issue 的内容
         // }
         options: {
-          clientID: 'f68de4a52511e04eae99', // 阿里
-          clientSecret: 'b2cf7d5cacf8bd622d789349049f19635ec95d4a', // 阿里
+          clientID: '04b38f0291dc32880e85', // 阿里
+          clientSecret: '42de4f523bb2254b64e73cb6980343b5ea153c15', // 阿里
           repo: 'blog-gitalk-cn', // 阿里 GitHub仓库
           owner: 'Alarikshaw', // GitHub仓库所有者
           admin: ['Alarikshaw'], // 对仓库有写权限的人
