@@ -24,10 +24,10 @@ module.exports = [
     ]
   },
   {
-    text: '面试',
+    text: '前端知识点',
     link: '/interview/',
     items: [
-      {text: '面试题', items: [
+      {text: '前端知识点', items: [
           {text: 'HTMLCSS', link: '/interview/html/'},
           {text: 'JavaScript', link: '/interview/js/'},
           {text: 'Vue', link: '/interview/vue/'},
