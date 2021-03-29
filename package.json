@@ -8,7 +8,7 @@
     "tx:deploy": "yarn build && scp -r docs/.vuepress/dist/* root@146.56.207.141:/www/wwwroot/",
     "ali:release": "scp -r docs/.vuepress/dist/* root@123.56.175.125:/www/wwwroot2/",
     "ali:deploy": "yarn build && scp -r docs/.vuepress/dist/* root@123.56.175.125:/www/wwwroot2/",
-    "updateTheme": "npm uninstall vuepress-theme-vdoing && rm -rf node_modules && npm i && npm i vuepress-theme-vdoing -D"
+    "updateTheme": "yarn remove vuepress-theme-vdoing && rm -rf node_modules && yarn install && yarn add vuepress-theme-vdoing -D && yarn start"
   },
   "license": "MIT",
   "devDependencies": {
