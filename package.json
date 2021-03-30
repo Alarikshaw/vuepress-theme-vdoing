@@ -7,7 +7,8 @@
     "tx:selease": "scp -r docs/.vuepress/dist/* root@146.56.207.141:/www/wwwroot/",
     "tx:deploy": "yarn build && scp -r docs/.vuepress/dist/* root@146.56.207.141:/www/wwwroot/",
     "ali:release": "scp -r docs/.vuepress/dist/* root@123.56.175.125:/www/wwwroot2/",
-    "ali:deploy": "yarn build && scp -r docs/.vuepress/dist/* root@123.56.175.125:/www/wwwroot2/"
+    "ali:deploy": "yarn build && scp -r docs/.vuepress/dist/* root@123.56.175.125:/www/wwwroot2/",
+    "updateTheme": "yarn remove vuepress-theme-vdoing && rm -rf node_modules && yarn install && yarn add vuepress-theme-vdoing -D && yarn start"
   },
   "license": "MIT",
   "devDependencies": {
@@ -21,7 +22,7 @@
     "vuepress-plugin-one-click-copy": "^1.0.2",
     "vuepress-plugin-thirdparty-search": "^1.0.2",
     "vuepress-plugin-zooming": "^1.1.7",
-    "vuepress-theme-vdoing": "^1.5.1",
+    "vuepress-theme-vdoing": "^1.8.1",
     "yamljs": "^0.3.0"
   },
   "dependencies": {
